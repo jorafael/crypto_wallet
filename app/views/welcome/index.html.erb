@@ -1,5 +1,8 @@
 <h1>Seja bem vindo</h1>
-<p>Idioma selecionado: <strong><%= t('actual_locale') %></strong></p>
+
+<p><%= link_to 'Português', root_path(locale: 'pt-BR') %></p>
+<p><%= link_to 'English', root_path(locale: 'en') %></p>
+
 <p><strong>Data:</strong> <%= l(Date.today) %></p>
 
 <p><strong><%= t('hello') %></strong></p>
