@@ -1,4 +1,4 @@
-pt-BR:
+en:
   activerecord:
     models:
       coin:
@@ -15,6 +15,7 @@ pt-BR:
         url_image: URL Image
         updated_at: Updated at
         created_at: Created at
+        mining_type: Mining Type
         mining_type_id: Mining Type
       mining_type:
         id: Id

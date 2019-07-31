@@ -30,9 +30,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  actual_locale: "English US"
+  current_locale: "English US"
   welcome: "Welcome!"
-  appdescription: "This is Crypto Wallet, an app for you to register and track your crypto crushed."
+  messages:
+    welcome: "This is Crypto Wallet, an app for you to register and track your crypto crushed."
+    menu: "To get started, select one of the options below."
   links:
     edit: "Edit"
     show: "Show"
