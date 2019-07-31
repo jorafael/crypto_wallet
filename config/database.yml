@@ -30,9 +30,8 @@ test:
   <<: *default
   database: crypto_wallet_test
 
-#
-# production:
-  # <<: *default
-  # database: crypto_wallet_production
+production:
+  <<: *default
+  database: crypto_wallet_production
   # username: crypto_wallet
   # password: <%= ENV['CRYPTO_WALLET_DATABASE_PASSWORD'] %>
