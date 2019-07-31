@@ -35,6 +35,7 @@ en:
   messages:
     welcome: "This is Crypto Wallet, an app for you to register and track your crypto crushed."
     menu: "To get started, select one of the options below."
+    confirm: "Are you sure?"
   links:
     edit: "Edit"
     show: "Show"
