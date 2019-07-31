@@ -31,7 +31,8 @@
 
 en:
   actual_locale: "English US"
-  hello: "Hello world"
+  welcome: "Welcome!"
+  appdescription: "This is Crypto Wallet, an app for you to register and track your crypto crushed."
   links:
     edit: "Edit"
     show: "Show"

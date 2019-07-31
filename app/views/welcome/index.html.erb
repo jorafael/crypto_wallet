@@ -1,21 +1,17 @@
-<h1>Seja bem vindo</h1>
-
-<p><%= link_to 'Português', root_path(locale: 'pt-BR') %></p>
-<p><%= link_to 'English', root_path(locale: 'en') %></p>
-
-<p><strong>Data:</strong> <%= l(Date.today) %></p>
-
-<p><strong><%= t('hello') %></strong></p>
-
-<%= render 'menu' %>
-
-<p>
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('welcome') %></h1>
+  <p class="lead"><%= t('appdescription') %></p>
+  <hr class="my-4">
+  <p>Para começar, selecione uma das opções a baixo.</p>
+  <%= render "menu" %>
+  <p>
+    <strong>Data:</strong> <%= l(Date.today) %>
+  </p>
+  <p>
     Você está em ambiente de <strong><%= ambiente_rails%></strong>
-</p>
+  </p>
+</div>
 
-<p>
-    A variável de instância/sessão tem o valor para nome: <strong><%= @nome%></strong>
-</p>
-<p>
-    O curso é: <strong><%= @curso%></strong>
-</p>
+
+
+
